@@ -1,0 +1,55 @@
+html {background-color: orange;
+        max-width: 1080px;}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    min-width: 300em;
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.my {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 500px;
+}
+
+.menu a {
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    background-color: darkcyan;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0 1em;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.my-photo {
+    box-sizing: border-box;
+    width: 30vw;
+    min-width: 200px;
+    border: ridge darkcyan;
+    margin: 0 20px 2px 0;
+    padding-left: 10px;
+    float: left;
+}
+
+.my-description{
+    box-sizing: border-box;
+    min-width: 200px;
+    margin-left: 20px;
+}
+
+section  {
+    text-indent: 20px;
+}
+
+
